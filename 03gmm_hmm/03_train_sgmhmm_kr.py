@@ -120,7 +120,7 @@ if __name__ == "__main__":
         hmm.save_hmm(out_hmm)
         print('saved model: %s' % (out_hmm))
 
-    end_time = time.time()    # 학습 끝난 시점
+    end_time = time.time()    #  학습 끝난 시점
     elapsed = end_time - start_time
 
     print(f"Total training time: {elapsed:.2f} seconds ({elapsed/60:.2f} minutes)")

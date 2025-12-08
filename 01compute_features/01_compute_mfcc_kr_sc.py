@@ -31,7 +31,7 @@ class FeatureExtractor():
                  sample_frequency=16000, 
                  frame_length=25, 
                  frame_shift=10, 
-                 num_mel_bins=23, 
+                 num_mel_bins=23,
                  num_ceps=13, 
                  lifter_coef=22, 
                  low_frequency=20, 
@@ -231,23 +231,65 @@ class FeatureExtractor():
         lifter = 1.0 + 0.5 * Q * np.sin(np.pi * I / Q)
         return lifter
 
+    def ComputeDelta(self, feat, N=2):
+
+        num_frames, dim = feat.shape
+        delta = np.zeros_like(feat)
+
+        # 테두리 처리를 위해 프레임 복제
+        padded = np.pad(feat, ((N, N), (0, 0)), mode="edge")
+
+        # 공식: Δ_t = sum_{n=1..N} n*(c_{t+n} - c_{t-n}) / (2 * sum_{n=1..N} n^2)
+        denom = 2 * sum([n**2 for n in range(1, N+1)])
+        for t in range(num_frames):
+            num = np.zeros(dim)
+            for n in range(1, N+1):
+                num += n * (padded[t+N+n] - padded[t+N-n])
+            delta[t] = num / denom
+
+        return delta
 
     def ComputeMFCC(self, waveform):
-        ''' MFCC 계산
-        '''
         # FBANK 및 로그 파워 계산
         fbank, log_power = self.ComputeFBANK(waveform)
-        
+
+        # DCT → MFCC (13차원)
+        mfcc = np.dot(fbank, self.dct_matrix.T)
+
+        # 리프터링
+        mfcc *= self.lifter
+
+        # 0차를 log_power로 교체
+        mfcc[:, 0] = log_power
+
+        return mfcc          # (num_frames, 13)
+
+
+    #  MFCC + Δ + ΔΔ 계산
+    def ComputeMFCC(self, waveform):
+
+
+        # FBANK 및 로그 파워 계산
+        fbank, log_power = self.ComputeFBANK(waveform)
+
         # DCT 기저 행렬과의 곱셈으로 DCT 계산
         mfcc = np.dot(fbank, self.dct_matrix.T)
 
         # 리프터링
         mfcc *= self.lifter
 
-        # MFCC의 0차원 값을 전처리하기 전에 파형 로그 파워로 치환
-        mfcc[:,0] = log_power
+        # MFCC의 0차원 값을 로그 파워로 치환
+        mfcc[:, 0] = log_power
 
-        return mfcc
+        # ===== 여기서부터 추가: Δ, ΔΔ 계산 =====
+        delta = self.ComputeDelta(mfcc)  # Δ
+        deltadelta = self.ComputeDelta(delta)  # ΔΔ
+
+        # 원본 + Δ + ΔΔ를 프레임 기준으로 이어 붙이기
+        mfcc_full = np.concatenate([mfcc, delta, deltadelta], axis=1)
+        # mfcc_full.shape = (num_frames, num_ceps * 3)
+
+        return mfcc_full
 
 # 
 # 메인 함수

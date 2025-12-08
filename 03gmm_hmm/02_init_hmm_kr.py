@@ -59,6 +59,13 @@ if __name__ == "__main__":
     # HMM 프로토타입을 읽어들임
     hmm.load_hmm(hmmproto)
 
+    hmm.num_dims = len(mean)
+
+
+
+    # HMM 프로토타입을 JSON 형식으로 저장
+    hmm.save_hmm(os.path.join(out_dir, '0.hmm'))
+
     # 플랫 스타트 초기화를 실행
     hmm.flat_init(mean, var)
 

@@ -17,9 +17,9 @@ from statistics import mean
 # # MODEL_NAME = "sgmhmm"
 # MODEL_NAME = "sgmhmm"
 
-LOG_FILE  = "train_log_sgmhmm.txt"
+LOG_FILE  = "train_log_gmmhmm.txt"
 OUT_FILE  = "train_log_summary.csv"
-MODEL_NAME = "sgmhmm"
+MODEL_NAME = "gmmhmm"
 
 
 

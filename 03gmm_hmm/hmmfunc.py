@@ -190,25 +190,37 @@ class MonoPhoneHMM():
 
 
     def flat_init(self, mean, var):
-        ''' 플랫 스타트에 의한 초기화
-           학습 데이터 전체의 평균과 분산을
-           HMM의 모든 정규 분포의 파라미터로 설정합니다
-        mean: 학습 데이터 전체의 평균 벡터
-        var:  학습 데이터 전체의 대각 공분산
-        '''
-        # 차원 수가 일치하지 않는 경우 오류
-        if self.num_dims != len(mean) or \
-           self.num_dims != len(var):
-            sys.stderr.write('flat_init: invalid mean or var\n')
-            return 1
+        # numpy 배열로 변환 (float 사용)
+        mean = np.asarray(mean, dtype=float)
+        var  = np.asarray(var, dtype=float)
+
+        # HMM의 num_dims를 mean/var 길이에 맞게 맞춰줌
+        self.num_dims = len(mean)
+
+        # NaN / inf 제거
+        mean = np.nan_to_num(mean)
+        var  = np.nan_to_num(var)
+
+        # 분산 바닥값(floor) 적용: 0 또는 너무 작은 값 방지
+        min_var = 1e-4
+        var[var < min_var] = min_var
+
+        # gConst를 numpy 배열 기반으로 한 번 계산
+        gconst = self.calc_gconst(var)
+
+        # ★ JSON 직렬화를 위해 파이썬 기본 타입으로 변환
+        mu_list = mean.tolist()        # list[float]
+        var_list = var.tolist()        # list[float]
+        gconst_float = float(gconst)   # float
+
+        # 모든 phone/state/mixture에 동일한 mean/var로 초기화
         for p in range(self.num_phones):
             for s in range(self.num_states):
                 for m in range(self.num_mixture):
                     pdf = self.pdf[p][s][m]
-                    pdf['mu'] = mean
-                    pdf['var'] = var
-                    pdf['gConst'] = self.calc_gconst(var)
-
+                    pdf['mu'] = mu_list[:]         # list copy
+                    pdf['var'] = var_list[:]       # list copy
+                    pdf['gConst'] = gconst_float   # python float
 
     def calc_out_prob(self, feat, label):
         ''' 출력 확률 계산

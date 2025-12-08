@@ -1,0 +1,1050 @@
+test001 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test001.bin
+Result = backward
+test002 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test002.bin
+Result = backward
+test003 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test003.bin
+Result = backward
+test004 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test004.bin
+Result = backward
+test005 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test005.bin
+Result = backward
+test006 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test006.bin
+Result = backward
+test007 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test007.bin
+Result = bed
+test008 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test008.bin
+Result = backward
+test009 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test009.bin
+Result = backward
+test010 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test010.bin
+Result = backward
+test011 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test011.bin
+Result = nine
+test012 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test012.bin
+Result = backward
+test013 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test013.bin
+Result = backward
+test014 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test014.bin
+Result = backward
+test015 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test015.bin
+Result = backward
+test016 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test016.bin
+Result = up
+test017 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test017.bin
+Result = bed
+test018 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test018.bin
+Result = five
+test019 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test019.bin
+Result = bed
+test020 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test020.bin
+Result = two
+test021 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test021.bin
+Result = bed
+test022 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test022.bin
+Result = bird
+test023 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test023.bin
+Result = bed
+test024 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test024.bin
+Result = bed
+test025 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test025.bin
+Result = bed
+test026 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test026.bin
+Result = bed
+test027 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test027.bin
+Result = bed
+test028 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test028.bin
+Result = bed
+test029 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test029.bin
+Result = happy
+test030 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test030.bin
+Result = bed
+test031 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test031.bin
+Result = bird
+test032 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test032.bin
+Result = bird
+test033 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test033.bin
+Result = bird
+test034 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test034.bin
+Result = bird
+test035 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test035.bin
+Result = bird
+test036 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test036.bin
+Result = bird
+test037 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test037.bin
+Result = seven
+test038 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test038.bin
+Result = bird
+test039 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test039.bin
+Result = bird
+test040 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test040.bin
+Result = bird
+test041 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test041.bin
+Result = bed
+test042 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test042.bin
+Result = bird
+test043 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test043.bin
+Result = wow
+test044 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test044.bin
+Result = forward
+test045 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test045.bin
+Result = bird
+test046 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test046.bin
+Result = cat
+test047 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test047.bin
+Result = cat
+test048 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test048.bin
+Result = cat
+test049 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test049.bin
+Result = cat
+test050 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test050.bin
+Result = cat
+test051 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test051.bin
+Result = house
+test052 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test052.bin
+Result = cat
+test053 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test053.bin
+Result = cat
+test054 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test054.bin
+Result = cat
+test055 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test055.bin
+Result = cat
+test056 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test056.bin
+Result = off
+test057 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test057.bin
+Result = cat
+test058 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test058.bin
+Result = cat
+test059 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test059.bin
+Result = cat
+test060 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test060.bin
+Result = cat
+test061 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test061.bin
+Result = follow
+test062 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test062.bin
+Result = down
+test063 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test063.bin
+Result = up
+test064 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test064.bin
+Result = off
+test065 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test065.bin
+Result = bed
+test066 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test066.bin
+Result = go
+test067 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test067.bin
+Result = up
+test068 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test068.bin
+Result = dog
+test069 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test069.bin
+Result = five
+test070 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test070.bin
+Result = go
+test071 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test071.bin
+Result = dog
+test072 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test072.bin
+Result = on
+test073 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test073.bin
+Result = no
+test074 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test074.bin
+Result = go
+test075 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test075.bin
+Result = wow
+test076 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test076.bin
+Result = down
+test077 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test077.bin
+Result = down
+test078 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test078.bin
+Result = follow
+test079 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test079.bin
+Result = down
+test080 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test080.bin
+Result = down
+test081 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test081.bin
+Result = down
+test082 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test082.bin
+Result = down
+test083 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test083.bin
+Result = down
+test084 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test084.bin
+Result = follow
+test085 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test085.bin
+Result = happy
+test086 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test086.bin
+Result = zero
+test087 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test087.bin
+Result = down
+test088 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test088.bin
+Result = zero
+test089 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test089.bin
+Result = nine
+test090 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test090.bin
+Result = down
+test091 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test091.bin
+Result = eight
+test092 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test092.bin
+Result = eight
+test093 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test093.bin
+Result = eight
+test094 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test094.bin
+Result = eight
+test095 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test095.bin
+Result = tree
+test096 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test096.bin
+Result = happy
+test097 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test097.bin
+Result = happy
+test098 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test098.bin
+Result = eight
+test099 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test099.bin
+Result = happy
+test100 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test100.bin
+Result = eight
+test101 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test101.bin
+Result = eight
+test102 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test102.bin
+Result = eight
+test103 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test103.bin
+Result = happy
+test104 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test104.bin
+Result = down
+test105 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test105.bin
+Result = eight
+test106 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test106.bin
+Result = five
+test107 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test107.bin
+Result = five
+test108 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test108.bin
+Result = five
+test109 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test109.bin
+Result = stop
+test110 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test110.bin
+Result = five
+test111 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test111.bin
+Result = follow
+test112 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test112.bin
+Result = four
+test113 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test113.bin
+Result = five
+test114 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test114.bin
+Result = five
+test115 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test115.bin
+Result = four
+test116 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test116.bin
+Result = five
+test117 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test117.bin
+Result = house
+test118 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test118.bin
+Result = bed
+test119 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test119.bin
+Result = five
+test120 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test120.bin
+Result = on
+test121 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test121.bin
+Result = follow
+test122 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test122.bin
+Result = follow
+test123 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test123.bin
+Result = follow
+test124 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test124.bin
+Result = follow
+test125 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test125.bin
+Result = go
+test126 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test126.bin
+Result = backward
+test127 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test127.bin
+Result = four
+test128 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test128.bin
+Result = follow
+test129 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test129.bin
+Result = one
+test130 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test130.bin
+Result = forward
+test131 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test131.bin
+Result = one
+test132 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test132.bin
+Result = follow
+test133 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test133.bin
+Result = follow
+test134 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test134.bin
+Result = four
+test135 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test135.bin
+Result = one
+test136 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test136.bin
+Result = forward
+test137 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test137.bin
+Result = follow
+test138 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test138.bin
+Result = follow
+test139 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test139.bin
+Result = four
+test140 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test140.bin
+Result = forward
+test141 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test141.bin
+Result = forward
+test142 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test142.bin
+Result = off
+test143 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test143.bin
+Result = four
+test144 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test144.bin
+Result = forward
+test145 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test145.bin
+Result = forward
+test146 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test146.bin
+Result = four
+test147 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test147.bin
+Result = forward
+test148 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test148.bin
+Result = forward
+test149 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test149.bin
+Result = four
+test150 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test150.bin
+Result = forward
+test151 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test151.bin
+Result = forward
+test152 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test152.bin
+Result = wow
+test153 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test153.bin
+Result = four
+test154 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test154.bin
+Result = backward
+test155 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test155.bin
+Result = four
+test156 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test156.bin
+Result = four
+test157 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test157.bin
+Result = four
+test158 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test158.bin
+Result = wow
+test159 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test159.bin
+Result = five
+test160 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test160.bin
+Result = up
+test161 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test161.bin
+Result = backward
+test162 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test162.bin
+Result = backward
+test163 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test163.bin
+Result = go
+test164 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test164.bin
+Result = two
+test165 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test165.bin
+Result = four
+test166 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test166.bin
+Result = go
+test167 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test167.bin
+Result = zero
+test168 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test168.bin
+Result = seven
+test169 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test169.bin
+Result = go
+test170 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test170.bin
+Result = go
+test171 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test171.bin
+Result = go
+test172 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test172.bin
+Result = go
+test173 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test173.bin
+Result = go
+test174 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test174.bin
+Result = house
+test175 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test175.bin
+Result = go
+test176 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test176.bin
+Result = on
+test177 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test177.bin
+Result = four
+test178 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test178.bin
+Result = follow
+test179 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test179.bin
+Result = learn
+test180 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test180.bin
+Result = go
+test181 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test181.bin
+Result = happy
+test182 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test182.bin
+Result = happy
+test183 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test183.bin
+Result = happy
+test184 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test184.bin
+Result = happy
+test185 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test185.bin
+Result = five
+test186 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test186.bin
+Result = happy
+test187 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test187.bin
+Result = happy
+test188 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test188.bin
+Result = happy
+test189 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test189.bin
+Result = happy
+test190 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test190.bin
+Result = happy
+test191 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test191.bin
+Result = wow
+test192 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test192.bin
+Result = happy
+test193 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test193.bin
+Result = happy
+test194 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test194.bin
+Result = happy
+test195 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test195.bin
+Result = happy
+test196 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test196.bin
+Result = house
+test197 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test197.bin
+Result = house
+test198 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test198.bin
+Result = house
+test199 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test199.bin
+Result = up
+test200 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test200.bin
+Result = house
+test201 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test201.bin
+Result = go
+test202 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test202.bin
+Result = house
+test203 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test203.bin
+Result = house
+test204 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test204.bin
+Result = house
+test205 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test205.bin
+Result = house
+test206 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test206.bin
+Result = house
+test207 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test207.bin
+Result = house
+test208 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test208.bin
+Result = house
+test209 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test209.bin
+Result = house
+test210 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test210.bin
+Result = house
+test211 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test211.bin
+Result = one
+test212 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test212.bin
+Result = no
+test213 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test213.bin
+Result = seven
+test214 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test214.bin
+Result = learn
+test215 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test215.bin
+Result = learn
+test216 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test216.bin
+Result = bed
+test217 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test217.bin
+Result = forward
+test218 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test218.bin
+Result = learn
+test219 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test219.bin
+Result = learn
+test220 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test220.bin
+Result = bed
+test221 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test221.bin
+Result = wow
+test222 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test222.bin
+Result = learn
+test223 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test223.bin
+Result = two
+test224 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test224.bin
+Result = down
+test225 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test225.bin
+Result = forward
+test226 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test226.bin
+Result = left
+test227 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test227.bin
+Result = left
+test228 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test228.bin
+Result = one
+test229 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test229.bin
+Result = wow
+test230 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test230.bin
+Result = left
+test231 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test231.bin
+Result = left
+test232 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test232.bin
+Result = bed
+test233 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test233.bin
+Result = yes
+test234 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test234.bin
+Result = five
+test235 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test235.bin
+Result = left
+test236 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test236.bin
+Result = left
+test237 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test237.bin
+Result = left
+test238 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test238.bin
+Result = learn
+test239 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test239.bin
+Result = up
+test240 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test240.bin
+Result = left
+test241 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test241.bin
+Result = one
+test242 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test242.bin
+Result = marvin
+test243 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test243.bin
+Result = two
+test244 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test244.bin
+Result = marvin
+test245 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test245.bin
+Result = seven
+test246 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test246.bin
+Result = one
+test247 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test247.bin
+Result = marvin
+test248 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test248.bin
+Result = marvin
+test249 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test249.bin
+Result = five
+test250 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test250.bin
+Result = marvin
+test251 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test251.bin
+Result = seven
+test252 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test252.bin
+Result = marvin
+test253 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test253.bin
+Result = marvin
+test254 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test254.bin
+Result = marvin
+test255 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test255.bin
+Result = one
+test256 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test256.bin
+Result = up
+test257 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test257.bin
+Result = nine
+test258 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test258.bin
+Result = off
+test259 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test259.bin
+Result = nine
+test260 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test260.bin
+Result = nine
+test261 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test261.bin
+Result = nine
+test262 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test262.bin
+Result = tree
+test263 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test263.bin
+Result = nine
+test264 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test264.bin
+Result = up
+test265 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test265.bin
+Result = nine
+test266 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test266.bin
+Result = learn
+test267 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test267.bin
+Result = nine
+test268 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test268.bin
+Result = nine
+test269 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test269.bin
+Result = nine
+test270 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test270.bin
+Result = nine
+test271 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test271.bin
+Result = house
+test272 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test272.bin
+Result = wow
+test273 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test273.bin
+Result = learn
+test274 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test274.bin
+Result = learn
+test275 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test275.bin
+Result = go
+test276 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test276.bin
+Result = no
+test277 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test277.bin
+Result = no
+test278 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test278.bin
+Result = no
+test279 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test279.bin
+Result = no
+test280 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test280.bin
+Result = no
+test281 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test281.bin
+Result = down
+test282 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test282.bin
+Result = learn
+test283 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test283.bin
+Result = no
+test284 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test284.bin
+Result = go
+test285 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test285.bin
+Result = follow
+test286 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test286.bin
+Result = house
+test287 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test287.bin
+Result = five
+test288 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test288.bin
+Result = off
+test289 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test289.bin
+Result = off
+test290 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test290.bin
+Result = house
+test291 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test291.bin
+Result = off
+test292 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test292.bin
+Result = off
+test293 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test293.bin
+Result = off
+test294 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test294.bin
+Result = up
+test295 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test295.bin
+Result = up
+test296 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test296.bin
+Result = go
+test297 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test297.bin
+Result = off
+test298 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test298.bin
+Result = nine
+test299 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test299.bin
+Result = follow
+test300 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test300.bin
+Result = off
+test301 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test301.bin
+Result = learn
+test302 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test302.bin
+Result = on
+test303 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test303.bin
+Result = four
+test304 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test304.bin
+Result = follow
+test305 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test305.bin
+Result = five
+test306 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test306.bin
+Result = off
+test307 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test307.bin
+Result = nine
+test308 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test308.bin
+Result = on
+test309 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test309.bin
+Result = down
+test310 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test310.bin
+Result = five
+test311 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test311.bin
+Result = five
+test312 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test312.bin
+Result = go
+test313 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test313.bin
+Result = on
+test314 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test314.bin
+Result = on
+test315 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test315.bin
+Result = nine
+test316 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test316.bin
+Result = one
+test317 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test317.bin
+Result = cat
+test318 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test318.bin
+Result = nine
+test319 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test319.bin
+Result = one
+test320 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test320.bin
+Result = one
+test321 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test321.bin
+Result = nine
+test322 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test322.bin
+Result = one
+test323 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test323.bin
+Result = one
+test324 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test324.bin
+Result = backward
+test325 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test325.bin
+Result = wow
+test326 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test326.bin
+Result = one
+test327 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test327.bin
+Result = one
+test328 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test328.bin
+Result = learn
+test329 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test329.bin
+Result = one
+test330 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test330.bin
+Result = one
+test331 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test331.bin
+Result = right
+test332 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test332.bin
+Result = right
+test333 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test333.bin
+Result = right
+test334 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test334.bin
+Result = right
+test335 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test335.bin
+Result = five
+test336 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test336.bin
+Result = five
+test337 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test337.bin
+Result = right
+test338 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test338.bin
+Result = right
+test339 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test339.bin
+Result = tree
+test340 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test340.bin
+Result = right
+test341 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test341.bin
+Result = right
+test342 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test342.bin
+Result = right
+test343 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test343.bin
+Result = right
+test344 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test344.bin
+Result = right
+test345 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test345.bin
+Result = wow
+test346 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test346.bin
+Result = six
+test347 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test347.bin
+Result = seven
+test348 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test348.bin
+Result = seven
+test349 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test349.bin
+Result = seven
+test350 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test350.bin
+Result = seven
+test351 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test351.bin
+Result = seven
+test352 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test352.bin
+Result = seven
+test353 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test353.bin
+Result = seven
+test354 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test354.bin
+Result = seven
+test355 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test355.bin
+Result = up
+test356 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test356.bin
+Result = bed
+test357 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test357.bin
+Result = seven
+test358 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test358.bin
+Result = seven
+test359 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test359.bin
+Result = seven
+test360 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test360.bin
+Result = seven
+test361 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test361.bin
+Result = sheila
+test362 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test362.bin
+Result = sheila
+test363 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test363.bin
+Result = six
+test364 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test364.bin
+Result = sheila
+test365 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test365.bin
+Result = sheila
+test366 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test366.bin
+Result = house
+test367 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test367.bin
+Result = sheila
+test368 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test368.bin
+Result = sheila
+test369 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test369.bin
+Result = sheila
+test370 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test370.bin
+Result = sheila
+test371 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test371.bin
+Result = six
+test372 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test372.bin
+Result = sheila
+test373 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test373.bin
+Result = sheila
+test374 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test374.bin
+Result = sheila
+test375 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test375.bin
+Result = sheila
+test376 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test376.bin
+Result = four
+test377 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test377.bin
+Result = six
+test378 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test378.bin
+Result = six
+test379 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test379.bin
+Result = six
+test380 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test380.bin
+Result = six
+test381 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test381.bin
+Result = six
+test382 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test382.bin
+Result = bed
+test383 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test383.bin
+Result = six
+test384 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test384.bin
+Result = six
+test385 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test385.bin
+Result = stop
+test386 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test386.bin
+Result = six
+test387 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test387.bin
+Result = six
+test388 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test388.bin
+Result = six
+test389 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test389.bin
+Result = six
+test390 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test390.bin
+Result = six
+test391 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test391.bin
+Result = stop
+test392 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test392.bin
+Result = seven
+test393 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test393.bin
+Result = stop
+test394 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test394.bin
+Result = stop
+test395 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test395.bin
+Result = follow
+test396 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test396.bin
+Result = wow
+test397 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test397.bin
+Result = stop
+test398 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test398.bin
+Result = left
+test399 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test399.bin
+Result = stop
+test400 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test400.bin
+Result = stop
+test401 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test401.bin
+Result = stop
+test402 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test402.bin
+Result = five
+test403 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test403.bin
+Result = stop
+test404 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test404.bin
+Result = stop
+test405 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test405.bin
+Result = stop
+test406 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test406.bin
+Result = three
+test407 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test407.bin
+Result = tree
+test408 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test408.bin
+Result = three
+test409 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test409.bin
+Result = three
+test410 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test410.bin
+Result = three
+test411 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test411.bin
+Result = eight
+test412 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test412.bin
+Result = happy
+test413 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test413.bin
+Result = three
+test414 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test414.bin
+Result = three
+test415 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test415.bin
+Result = three
+test416 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test416.bin
+Result = happy
+test417 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test417.bin
+Result = three
+test418 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test418.bin
+Result = tree
+test419 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test419.bin
+Result = three
+test420 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test420.bin
+Result = tree
+test421 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test421.bin
+Result = tree
+test422 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test422.bin
+Result = three
+test423 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test423.bin
+Result = five
+test424 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test424.bin
+Result = tree
+test425 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test425.bin
+Result = tree
+test426 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test426.bin
+Result = tree
+test427 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test427.bin
+Result = tree
+test428 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test428.bin
+Result = tree
+test429 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test429.bin
+Result = tree
+test430 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test430.bin
+Result = happy
+test431 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test431.bin
+Result = tree
+test432 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test432.bin
+Result = tree
+test433 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test433.bin
+Result = happy
+test434 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test434.bin
+Result = tree
+test435 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test435.bin
+Result = tree
+test436 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test436.bin
+Result = up
+test437 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test437.bin
+Result = two
+test438 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test438.bin
+Result = off
+test439 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test439.bin
+Result = two
+test440 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test440.bin
+Result = two
+test441 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test441.bin
+Result = two
+test442 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test442.bin
+Result = two
+test443 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test443.bin
+Result = wow
+test444 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test444.bin
+Result = two
+test445 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test445.bin
+Result = sheila
+test446 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test446.bin
+Result = two
+test447 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test447.bin
+Result = two
+test448 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test448.bin
+Result = three
+test449 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test449.bin
+Result = two
+test450 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test450.bin
+Result = two
+test451 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test451.bin
+Result = stop
+test452 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test452.bin
+Result = five
+test453 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test453.bin
+Result = up
+test454 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test454.bin
+Result = go
+test455 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test455.bin
+Result = up
+test456 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test456.bin
+Result = happy
+test457 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test457.bin
+Result = stop
+test458 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test458.bin
+Result = up
+test459 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test459.bin
+Result = up
+test460 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test460.bin
+Result = go
+test461 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test461.bin
+Result = up
+test462 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test462.bin
+Result = up
+test463 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test463.bin
+Result = up
+test464 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test464.bin
+Result = off
+test465 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test465.bin
+Result = four
+test466 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test466.bin
+Result = three
+test467 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test467.bin
+Result = no
+test468 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test468.bin
+Result = visual
+test469 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test469.bin
+Result = visual
+test470 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test470.bin
+Result = off
+test471 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test471.bin
+Result = visual
+test472 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test472.bin
+Result = learn
+test473 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test473.bin
+Result = visual
+test474 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test474.bin
+Result = visual
+test475 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test475.bin
+Result = visual
+test476 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test476.bin
+Result = cat
+test477 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test477.bin
+Result = stop
+test478 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test478.bin
+Result = visual
+test479 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test479.bin
+Result = visual
+test480 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test480.bin
+Result = visual
+test481 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test481.bin
+Result = go
+test482 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test482.bin
+Result = wow
+test483 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test483.bin
+Result = wow
+test484 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test484.bin
+Result = go
+test485 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test485.bin
+Result = follow
+test486 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test486.bin
+Result = wow
+test487 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test487.bin
+Result = wow
+test488 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test488.bin
+Result = wow
+test489 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test489.bin
+Result = follow
+test490 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test490.bin
+Result = stop
+test491 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test491.bin
+Result = eight
+test492 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test492.bin
+Result = wow
+test493 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test493.bin
+Result = no
+test494 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test494.bin
+Result = up
+test495 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test495.bin
+Result = wow
+test496 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test496.bin
+Result = sheila
+test497 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test497.bin
+Result = yes
+test498 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test498.bin
+Result = six
+test499 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test499.bin
+Result = yes
+test500 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test500.bin
+Result = yes
+test501 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test501.bin
+Result = six
+test502 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test502.bin
+Result = yes
+test503 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test503.bin
+Result = yes
+test504 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test504.bin
+Result = yes
+test505 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test505.bin
+Result = one
+test506 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test506.bin
+Result = yes
+test507 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test507.bin
+Result = yes
+test508 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test508.bin
+Result = yes
+test509 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test509.bin
+Result = yes
+test510 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test510.bin
+Result = five
+test511 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test511.bin
+Result = zero
+test512 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test512.bin
+Result = zero
+test513 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test513.bin
+Result = wow
+test514 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test514.bin
+Result = zero
+test515 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test515.bin
+Result = zero
+test516 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test516.bin
+Result = zero
+test517 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test517.bin
+Result = zero
+test518 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test518.bin
+Result = zero
+test519 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test519.bin
+Result = zero
+test520 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test520.bin
+Result = zero
+test521 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test521.bin
+Result = zero
+test522 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test522.bin
+Result = zero
+test523 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test523.bin
+Result = zero
+test524 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test524.bin
+Result = zero
+test525 C:\Users\USER\OneDrive\SpeechRecognition\bjasr_sc\bjasr_sc\01compute_features\mfcc\test\test525.bin
+Result = marvin
