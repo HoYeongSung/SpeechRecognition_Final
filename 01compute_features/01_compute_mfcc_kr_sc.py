@@ -268,7 +268,6 @@ class FeatureExtractor():
     #  MFCC + Δ + ΔΔ 계산
     def ComputeMFCC(self, waveform):
 
-
         # FBANK 및 로그 파워 계산
         fbank, log_power = self.ComputeFBANK(waveform)
 
@@ -278,7 +277,7 @@ class FeatureExtractor():
         # 리프터링
         mfcc *= self.lifter
 
-        # MFCC의 0차원 값을 로그 파워로 치환
+        # MFCC의 0차원 값을 전처리하기 전에 파형 로그 파워로 치환
         mfcc[:, 0] = log_power
 
         # ===== 여기서부터 추가: Δ, ΔΔ 계산 =====

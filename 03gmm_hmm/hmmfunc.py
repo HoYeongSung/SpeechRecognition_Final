@@ -208,7 +208,7 @@ class MonoPhoneHMM():
         # gConst를 numpy 배열 기반으로 한 번 계산
         gconst = self.calc_gconst(var)
 
-        # ★ JSON 직렬화를 위해 파이썬 기본 타입으로 변환
+        # JSON 직렬화를 위해 파이썬 기본 타입으로 변환
         mu_list = mean.tolist()        # list[float]
         var_list = var.tolist()        # list[float]
         gconst_float = float(gconst)   # float
