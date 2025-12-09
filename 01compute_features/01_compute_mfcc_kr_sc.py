@@ -14,6 +14,16 @@ import numpy as np
 import os
 import sys
 
+'''VAD+CMVN 구현 추가 - import'''
+CURRENT_DIR = os.path.dirname(os.path.abspath(__file__))  # .../SpeechRecognition_Final/01compute_features
+PROJECT_ROOT = os.path.dirname(CURRENT_DIR)               # .../SpeechRecognition_Final
+
+if PROJECT_ROOT not in sys.path:
+    sys.path.append(PROJECT_ROOT)
+
+# robust 전처리기(VAD + CMVN)
+from add_implementation.Preprocessing.robust_processor import RobustProcessor
+
 class FeatureExtractor():
     '''특징량(FBANK, MFCC)을 추출하는 클래스
     sample_frequency: 입력 파형의 샘플링 주파수 [Hz]
@@ -338,6 +348,10 @@ if __name__ == "__main__":
                        high_frequency=high_frequency, 
                        dither=dither)
 
+    '''VAD+CMVN 구현 추가 - 전처리기'''
+    robust_proc = RobustProcessor()
+
+
     # wav 파일 목록과 출력 위치를 리스트로 생성
     wav_scp_list = [train_wav_scp, 
                     #dev_wav_scp, 
@@ -400,6 +414,9 @@ if __name__ == "__main__":
                     
                     # MFCC 계산
                     mfcc = feat_extractor.ComputeMFCC(waveform)
+
+                    ''' 추가: VAD + CMVN 적용'''
+                    mfcc = robust_proc.process(mfcc)
 
                 # 특징량의 프레임 수와 차원 수를 가져옴
                 (num_frames, num_dims) = np.shape(mfcc)
