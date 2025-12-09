@@ -39,6 +39,9 @@ if __name__ == "__main__":
     # 이 프로그램에서는 일부 발화만 사용
     num_utters = 1050
 
+    # CPU 병렬 처리를 위한 워커 수
+    num_workers = 32
+
     # 출력 디렉토리
     out_dir = os.path.dirname(base_hmm)
 
@@ -111,8 +114,8 @@ if __name__ == "__main__":
     for iter in range(num_iter):
         print('%d-th iterateion' % (iter+1))
         # 학습(1회 반복)
-        hmm.train(feat_list, label_list)
-       
+        hmm.train(feat_list, label_list, num_workers=num_workers)
+
         # HMM 프로토타입을 JSON 형식으로 저장
         out_hmm = os.path.join(out_dir, 
                                '%d.hmm' % (iter+1))

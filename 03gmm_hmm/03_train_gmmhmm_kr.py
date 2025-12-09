@@ -21,7 +21,7 @@ import time
 if __name__ == "__main__":
 
     # 학습용 HMM 파일
-    base_hmm = './exp/model_3state_1mix/0.hmm'
+    base_hmm = './exp/model_3state_1mix/10.hmm'
 
     # 훈련 데이터 특징량 리스트 파일
     feat_scp = \
@@ -51,6 +51,10 @@ if __name__ == "__main__":
     # 
     # 처리 시작
     # 
+
+    '''CPU 병렬 처리를 위한 수정 사항'''
+    # CPU 병렬 처리를 위한 워커 수
+    num_workers = 24
 
     # MonoPhoneHMM 클래스를 호출
     hmm = MonoPhoneHMM()
@@ -159,7 +163,9 @@ if __name__ == "__main__":
         for iter in range(num_iter):
             print('%d-th iterateion' % (iter+1))
             # 학습(1회 반복)
-            hmm.train(feat_list, label_list)
+            #   -> MonoPhoneHMM.train 내부에서 num_workers 개의 프로세스를 사용해
+            #      발화별 학습을 병렬로 처리하도록 구현할 예정
+            hmm.train(feat_list, label_list, num_workers=num_workers)
 
             # HMM 프로토타입을 JSON 형식으로 저장
             out_hmm = os.path.join(out_dir, 

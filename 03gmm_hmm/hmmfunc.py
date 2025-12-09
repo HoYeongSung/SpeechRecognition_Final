@@ -6,11 +6,46 @@
 
 # 수치 연산용 모듈(numpy)을(를) 인포트
 import numpy as np
-
 # json형식 입출력 모듈을(를) 인포트
 import json
+import os
+import sys
+
+CURRENT_DIR = os.path.dirname(os.path.abspath(__file__))  # .../bjasr_sc/03gmm_hmm
+PROJECT_ROOT = os.path.dirname(CURRENT_DIR)               # .../bjasr_sc
+
+if PROJECT_ROOT not in sys.path:
+    sys.path.append(PROJECT_ROOT)
+
+from add_implementation.System_Optimization.parallel_runner import parallel_map
 
 import sys
+
+
+"""
+   CPU 병렬 처리를 위한 추가 사항 _train_one_uttrerance_worker
+   한 발화(utterance)에 대해 E-step을 수행하고
+   local accumulator와 log-likelihood를 반환하는 워커 함수.
+"""
+def _train_one_utterance_worker(args):
+
+    hmm, feat_path, label = args
+
+    # 워커 내부에서 local accumulator 사용
+    hmm.reset_accumulators()
+
+    # 특징량 로드
+    feat = np.fromfile(feat_path, dtype=np.float32)
+    feat = feat.reshape(-1, hmm.num_dims)
+
+    # E-step (출력확률, alpha/beta, accumulator 갱신)
+    hmm.calc_out_prob(feat, label)
+    hmm.calc_alpha(label)
+    hmm.calc_beta(label)
+    hmm.update_accumulators(feat, label)
+
+    # 이 발화에 대한 누적 통계량과 log-likelihood 반환
+    return hmm.pdf_accumulators, hmm.trans_accumulators, hmm.loglikelihood
 
 class MonoPhoneHMM():
     ''' HMM Class
@@ -188,7 +223,7 @@ class MonoPhoneHMM():
             z = y + np.log(1.0 + np.exp(x - y))
         return z
 
-
+    """MFCC 39차원 확장을 위한 수정 - flat_init"""
     def flat_init(self, mean, var):
         # numpy 배열로 변환 (float 사용)
         mean = np.asarray(mean, dtype=float)
@@ -624,6 +659,46 @@ class MonoPhoneHMM():
                                             tmp)
 
 
+    """CPU 병렬 처리를 위한 추가 사항 merge_pdf_accumulators
+    다른 워커에서 계산한 pdf_accumulators를 현재 모델에 합산."""
+    def merge_pdf_accumulators(self, other_pdf_acc):
+        for p in range(self.num_phones):
+            for s in range(self.num_states):
+                for m in range(self.num_mixture):
+                    tgt = self.pdf_accumulators[p][s][m]
+                    src = other_pdf_acc[p][s][m]
+
+                    # mu / var 의 num 은 선형 공간이라 그냥 더함
+                    tgt['mu']['num']  += src['mu']['num']
+                    tgt['var']['num'] += src['var']['num']
+
+                    # mu / var / weight 의 den, weight.num 은 log 공간 -> logadd 로 병합
+                    tgt['mu']['den']      = self.logadd(tgt['mu']['den'],
+                                                        src['mu']['den'])
+                    tgt['var']['den']     = self.logadd(tgt['var']['den'],
+                                                        src['var']['den'])
+                    tgt['weight']['num']  = self.logadd(tgt['weight']['num'],
+                                                         src['weight']['num'])
+                    tgt['weight']['den']  = self.logadd(tgt['weight']['den'],
+                                                         src['weight']['den'])
+
+
+    """CPU 병렬 처리를 위한 추가 사항 merge_trans_accumulators
+    다른 워커에서 계산한 trans_accumulators를 현재 모델에 합산."""
+    def merge_trans_accumulators(self, other_trans_acc):
+        for p in range(self.num_phones):
+            for s in range(self.num_states):
+                tgt = self.trans_accumulators[p][s]
+                src = other_trans_acc[p][s]
+
+                # den 은 log 스칼라
+                tgt['den'] = self.logadd(tgt['den'], src['den'])
+
+                # num 은 길이 2인 log 벡터
+                for i in range(2):
+                    tgt['num'][i] = self.logadd(tgt['num'][i], src['num'][i])
+
+
     def update_parameters(self):
         ''' 파라미터 갱신
         '''
@@ -820,59 +895,82 @@ class MonoPhoneHMM():
         self.num_mixture *= 2
 
 
-    def train(self, feat_list, label_list, report_interval=10):
+    def train(self, feat_list, label_list,
+              num_workers=1, report_interval=10):
         ''' HMM을 1 iteration만큼 갱신
-        feat_list:  특징량 파일의 리스트
-                    발화 ID를 key, 특징량 파일 경로를
-                    value로 하는 딕셔너리
-        label_list: 라벨 리스트
-                    발화 ID를 key, 라벨을 value로 하는
-                    딕셔너리
-        report_interval: 처리 중간 결과를 표시하는 간격 (발화 수)
+        feat_list:  특징량 파일 리스트 (utt_id -> feat_path)
+        label_list: 라벨 리스트      (utt_id -> label np.ndarray)
+        num_workers: 병렬 처리에 사용할 프로세스 수
+        report_interval: 순차 모드에서 로그 출력 간격
         '''
-        # accumulators (파라미터 갱신에
-        # 사용하는 변수)를 리셋
+
+        # accumulators (파라미터 갱신용 변수)를 0으로 초기화
         self.reset_accumulators()
 
-        # 특징량 파일을 하나씩 열어서 처리
+        # 공통 통계
         count = 0
         ll_per_utt = 0.0
-        partial_ll = 0.0
-        for utt, ff in feat_list.items():
-            # 처리한 발화 수를 1 증가
-            count += 1
-            # 특징량 파일을 엶
-            feat = np.fromfile(ff, dtype=np.float32)
-            # 프레임 수 x 차원 수의 배열로 변형
-            feat = feat.reshape(-1, self.num_dims)
-            # 라벨을 얻음
-            label = label_list[utt]
 
-            # 각 분포의 출력 확률을 구함
-            self.calc_out_prob(feat, label)
-            # 전향 확률을 구함
-            self.calc_alpha(label)
-            # 후향 확률을 구함
-            self.calc_beta(label)
-            # accumulators를 갱신
-            self.update_accumulators(feat, label)
-            # 대수 우도를 더함
-            ll_per_utt += self.loglikelihood
+        # ===== 순차 실행 (기존 코드) =====
+        if num_workers <= 1:
+            partial_ll = 0.0
+            for utt, ff in feat_list.items():
+                count += 1
+                # 특징량 로드
+                feat = np.fromfile(ff, dtype=np.float32)
+                feat = feat.reshape(-1, self.num_dims)
+                # 라벨
+                label = label_list[utt]
 
-            # 중간 결과를 표시
-            partial_ll += self.loglikelihood
-            if count % report_interval == 0:
-                partial_ll /= report_interval
-                print('  %d / %d utterances processed' \
-                      % (count, len(feat_list)))
-                print('  log likelihood averaged'\
-                      ' over %d utterances: %f' \
-                      % (report_interval, partial_ll))
+                # E-step
+                self.calc_out_prob(feat, label)
+                self.calc_alpha(label)
+                self.calc_beta(label)
+                self.update_accumulators(feat, label)
 
-        # 모델 파라미터를 갱신
+                # 로그우도 누적
+                ll_per_utt += self.loglikelihood
+                partial_ll += self.loglikelihood
+
+                # 중간 결과 출력
+                if count % report_interval == 0:
+                    partial_ll /= report_interval
+                    print('  %d / %d utterances processed'
+                          % (count, len(feat_list)))
+                    print('  log likelihood averaged'
+                          ' over %d utterances: %f'
+                          % (report_interval, partial_ll))
+                    partial_ll = 0.0
+
+        # ===== 병렬 실행 (multiprocessing + parallel_map) =====
+        # CPU 병렬 구현 수정사항 - 병렬 실행 부분
+        else:
+            # job 리스트: (hmm, feat_path, label)
+            jobs = []
+            for utt, ff in feat_list.items():
+                label = label_list[utt]
+                # self 는 각 프로세스에서 복사본으로 사용됨
+                jobs.append((self, ff, label))
+
+            # 병렬 실행
+            results = parallel_map(_train_one_utterance_worker,
+                                   jobs,
+                                   num_workers=num_workers)
+
+            # 워커에서 온 통계량 합산
+            for pdf_acc, trans_acc, loglik in results:
+                self.merge_pdf_accumulators(pdf_acc)
+                self.merge_trans_accumulators(trans_acc)
+                ll_per_utt += loglik
+                count += 1
+
+        # ===== 공통: 파라미터 업데이트 & 로그 출력 =====
+        # 모델 파라미터 갱신
         self.update_parameters()
-        # 대수 우도의 발화 평균을 구함
-        ll_per_utt /= count
+
+        # 발화 평균 로그우도
+        if count > 0:
+            ll_per_utt /= count
         print('average log likelihood: %f' % (ll_per_utt))
 
 

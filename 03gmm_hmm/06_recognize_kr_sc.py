@@ -20,6 +20,7 @@ import os
 if __name__ == "__main__":
 
     # HMM 파일
+    # hmm_file = './exp/model_3state_1mix/10.hmm'
     hmm_file = './exp/gmmhmm/model_3state_2mix/10.hmm'
 
     # 평가 데이터의 특징량 리스트 파일
