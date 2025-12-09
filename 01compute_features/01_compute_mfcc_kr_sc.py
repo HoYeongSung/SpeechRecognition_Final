@@ -249,20 +249,20 @@ class FeatureExtractor():
 
         return delta
 
-    def ComputeMFCC(self, waveform):
-        # FBANK 및 로그 파워 계산
-        fbank, log_power = self.ComputeFBANK(waveform)
-
-        # DCT → MFCC (13차원)
-        mfcc = np.dot(fbank, self.dct_matrix.T)
-
-        # 리프터링
-        mfcc *= self.lifter
-
-        # 0차를 log_power로 교체
-        mfcc[:, 0] = log_power
-
-        return mfcc          # (num_frames, 13)
+    # def ComputeMFCC(self, waveform):
+    #     # FBANK 및 로그 파워 계산
+    #     fbank, log_power = self.ComputeFBANK(waveform)
+    #
+    #     # DCT → MFCC (13차원)
+    #     mfcc = np.dot(fbank, self.dct_matrix.T)
+    #
+    #     # 리프터링
+    #     mfcc *= self.lifter
+    #
+    #     # 0차를 log_power로 교체
+    #     mfcc[:, 0] = log_power
+    #
+    #     return mfcc          # (num_frames, 13)
 
 
     #  MFCC + Δ + ΔΔ 계산
