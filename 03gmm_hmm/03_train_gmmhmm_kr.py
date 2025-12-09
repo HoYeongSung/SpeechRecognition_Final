@@ -54,7 +54,7 @@ if __name__ == "__main__":
 
     '''CPU 병렬 처리를 위한 수정 사항'''
     # CPU 병렬 처리를 위한 워커 수
-    num_workers = 24
+    num_workers = 4
 
     # MonoPhoneHMM 클래스를 호출
     hmm = MonoPhoneHMM()

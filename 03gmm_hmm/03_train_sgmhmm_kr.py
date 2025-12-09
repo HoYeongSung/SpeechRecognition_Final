@@ -40,7 +40,7 @@ if __name__ == "__main__":
     num_utters = 1050
 
     # CPU 병렬 처리를 위한 워커 수
-    num_workers = 32
+    num_workers = 4
 
     # 출력 디렉토리
     out_dir = os.path.dirname(base_hmm)
