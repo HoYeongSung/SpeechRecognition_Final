@@ -223,6 +223,15 @@ class MonoPhoneHMM():
             z = y + np.log(1.0 + np.exp(x - y))
         return z
 
+    '''HMM 상태수 조정 : NAN 오류 방지'''
+    def safe_exp(self, x, clip=50.0):
+        """
+        exp(x)에서 overflow가 나지 않도록 [-clip, clip] 범위로 잘라서 exp를 계산하는 함수
+        """
+        x = np.asarray(x)
+        x = np.clip(x, -clip, clip)
+        return np.exp(x)
+
     """MFCC 39차원 확장을 위한 수정 - flat_init"""
     def flat_init(self, mean, var):
         # numpy 배열로 변환 (float 사용)
@@ -463,7 +472,6 @@ class MonoPhoneHMM():
                 tmp_p.append(trans_stats)
             self.trans_accumulators.append(tmp_p)
 
-
     def update_accumulators(self, feat, label):
         ''' accumulators 갱신
             left-to-right를 전제로 한 구현임
@@ -490,72 +498,73 @@ class MonoPhoneHMM():
                     elif t == 0:
                         # t=0에서 첫 번째 상태가 아닌 경우
                         # 확률이 0이므로 건너뜀
-                        continue   
+                        continue
                     elif s > 0:
                         # t>0이며 첫 번째 상태가 아닌 경우
                         # 자기 루프
-                        lconst = self.alpha[l][s][t-1] \
-                               + self.trans[p][s][0]
+                        lconst = self.alpha[l][s][t - 1] \
+                                 + self.trans[p][s][0]
                         # 한 단계 앞의 상태로의 전이를 고려
-                        tmp = self.alpha[l][s-1][t-1] \
-                            + self.trans[p][s-1][1]
+                        tmp = self.alpha[l][s - 1][t - 1] \
+                              + self.trans[p][s - 1][1]
                         # 자기 루프와의 합을 계산
                         if tmp > self.LSMALL:
-                            lconst = self.logadd(lconst, 
-                                                 tmp)
+                            lconst = self.logadd(lconst, tmp)
                     elif l > 0:
                         # t>0에서 첫 번째 음소가 아니고
                         # 첫 번째 상태인 경우
                         # 자기 루프
-                        lconst = self.alpha[l][s][t-1] \
-                               + self.trans[p][s][0]
+                        lconst = self.alpha[l][s][t - 1] \
+                                 + self.trans[p][s][0]
                         # 한 단계 전 음소의 종단 상태에서 전이
-                        prev_p = label[l-1]
-                        tmp = self.alpha[l-1][-1][t-1] \
-                            + self.trans[prev_p][-1][1]
+                        prev_p = label[l - 1]
+                        tmp = self.alpha[l - 1][-1][t - 1] \
+                              + self.trans[prev_p][-1][1]
                         # 자기 루프와의 합을 계산
                         if tmp > self.LSMALL:
-                            lconst = self.logadd(lconst, 
-                                                 tmp)
+                            lconst = self.logadd(lconst, tmp)
                     else:
                         # 첫 번째 음소이자 첫 번째 상태인 경우
                         # 자기 루프만 존재
-                        lconst = self.alpha[l][s][t-1] \
-                               + self.trans[p][s][0]
-                    
+                        lconst = self.alpha[l][s][t - 1] \
+                                 + self.trans[p][s][0]
+
                     # 후향 확률과 1/P를 추가
                     lconst += self.beta[l][s][t] \
-                           - self.loglikelihood
+                              - self.loglikelihood
+
                     # accumulators 갱신
                     for m in range(self.num_mixture):
                         pdf = self.pdf[p][s][m]
                         L = lconst \
-                          + np.log(pdf['weight']) \
-                          + self.elem_prob[l][s][m][t]
-                        
+                            + np.log(pdf['weight']) \
+                            + self.elem_prob[l][s][m][t]
+
+                        # ======== exp 안정화를 위한 클리핑 ========
+                        # L이 너무 크거나 작으면 exp에서 overflow/underflow 발생
+                        L_clipped = np.clip(L, -50.0, 50.0)
+                        w = np.exp(L_clipped)  # 이 w만 사용
+                        # =======================================
+
                         pdf_accum = self.pdf_accumulators[p][s][m]
                         # 평균 벡터 갱신식의 분자는
-                        # 로그를 취하지 않음
-                        pdf_accum['mu']['num'] += \
-                            np.exp(L) * feat[t]
+                        # 로그를 취하지 않음 (선형 공간)
+                        pdf_accum['mu']['num'] += w * feat[t]
+
                         # 분모는 로그 값으로 갱신
                         if L > self.LSMALL:
                             pdf_accum['mu']['den'] = \
-                                self.logadd(pdf_accum['mu']['den'], 
-                                            L)
-                        # 대각 공분산 갱신식의 분자는
-                        # 로그를 취하지 않음
-                        dev = feat[t] - pdf['mu']
-                        pdf_accum['var']['num'] += \
-                            np.exp(L) * (dev**2)
-                        # 분모는 평균 값의 것과 동일
-                        pdf_accum['var']['den'] = \
-                            pdf_accum['mu']['den']
+                                self.logadd(pdf_accum['mu']['den'], L)
 
-                        # GMM 가중치 갱신식의 분자는
-                        # 평균·분산의 분모와 동일한 값
-                        pdf_accum['weight']['num'] = \
-                            pdf_accum['mu']['den']
+                        # 대각 공분산 갱신식의 분자 (선형 공간)
+                        dev = feat[t] - pdf['mu']
+                        pdf_accum['var']['num'] += w * (dev ** 2)
+
+                        # 분모는 평균 값의 것과 동일 (log 공간)
+                        pdf_accum['var']['den'] = pdf_accum['mu']['den']
+
+                        # GMM 가중치 갱신식의 분자 (log 공간)
+                        pdf_accum['weight']['num'] = pdf_accum['mu']['den']
 
         # 전이 확률의 accumulators와
         # GMM 가중치 accumulators의 분모를 갱신
@@ -566,21 +575,21 @@ class MonoPhoneHMM():
                     # GMM 가중치 accumulator의 분모와
                     # 전이 확률 accumulator의 분모 갱신에 사용
                     alphabeta = self.alpha[l][s][t] \
-                              + self.beta[l][s][t] \
-                              - self.loglikelihood
+                                + self.beta[l][s][t] \
+                                - self.loglikelihood
 
                     # GMM 가중치 accumulator의 분모를 갱신
                     for m in range(self.num_mixture):
-                        pdf_accum = \
-                            self.pdf_accumulators[p][s][m]
+                        pdf_accum = self.pdf_accumulators[p][s][m]
                         # 분모는 모든 m에 대해 동일하므로
                         # m==0일 때만 계산
                         if m == 0:
                             if alphabeta > self.LSMALL:
                                 pdf_accum['weight']['den'] = \
-                                    self.logadd(\
+                                    self.logadd(
                                         pdf_accum['weight']['den'],
-                                        alphabeta)
+                                        alphabeta
+                                    )
                         else:
                             tmp = self.pdf_accumulators[p][s][0]
                             pdf_accum['weight']['den'] = \
@@ -588,11 +597,9 @@ class MonoPhoneHMM():
 
                     # 전이 확률 accumulator의 분모를 갱신
                     trans_accum = self.trans_accumulators[p][s]
-                    if t < feat_len - 1 \
-                            and alphabeta > self.LSMALL:
+                    if t < feat_len - 1 and alphabeta > self.LSMALL:
                         trans_accum['den'] = \
-                            self.logadd(trans_accum['den'],
-                                        alphabeta)
+                            self.logadd(trans_accum['den'], alphabeta)
 
                     #
                     # 이하 전이 확률 accumulator의 분자 갱신
@@ -604,60 +611,54 @@ class MonoPhoneHMM():
                         # 각 음소의 비종단 상태인 경우
                         # 자기 루프
                         tmp = self.alpha[l][s][t] \
-                            + self.trans[p][s][0] \
-                            + self.state_prob[l][s][t+1] \
-                            + self.beta[l][s][t+1] \
-                            - self.loglikelihood
+                              + self.trans[p][s][0] \
+                              + self.state_prob[l][s][t + 1] \
+                              + self.beta[l][s][t + 1] \
+                              - self.loglikelihood
                         if tmp > self.LSMALL:
                             trans_accum['num'][0] = \
-                                self.logadd(trans_accum['num'][0],
-                                            tmp)
+                                self.logadd(trans_accum['num'][0], tmp)
 
                         # 전이
                         tmp = self.alpha[l][s][t] \
-                            + self.trans[p][s][1] \
-                            + self.state_prob[l][s+1][t+1] \
-                            + self.beta[l][s+1][t+1] \
-                            - self.loglikelihood
+                              + self.trans[p][s][1] \
+                              + self.state_prob[l][s + 1][t + 1] \
+                              + self.beta[l][s + 1][t + 1] \
+                              - self.loglikelihood
                         if tmp > self.LSMALL:
                             trans_accum['num'][1] = \
-                                self.logadd(trans_accum['num'][1],
-                                            tmp)
+                                self.logadd(trans_accum['num'][1], tmp)
                     elif l < label_len - 1:
                         # 종단 상태이자 비종단 음소
                         # 자기 루프
                         tmp = self.alpha[l][s][t] \
-                            + self.trans[p][s][0] \
-                            + self.state_prob[l][s][t+1] \
-                            + self.beta[l][s][t+1] \
-                            - self.loglikelihood
+                              + self.trans[p][s][0] \
+                              + self.state_prob[l][s][t + 1] \
+                              + self.beta[l][s][t + 1] \
+                              - self.loglikelihood
                         if tmp > self.LSMALL:
                             trans_accum['num'][0] = \
-                                self.logadd(trans_accum['num'][0],
-                                            tmp)
+                                self.logadd(trans_accum['num'][0], tmp)
                         # 다음 음소의 시작 상태로의 전이
                         tmp = self.alpha[l][s][t] \
-                            + self.trans[p][s][1] \
-                            + self.state_prob[l+1][0][t+1] \
-                            + self.beta[l+1][0][t+1] \
-                            - self.loglikelihood
+                              + self.trans[p][s][1] \
+                              + self.state_prob[l + 1][0][t + 1] \
+                              + self.beta[l + 1][0][t + 1] \
+                              - self.loglikelihood
                         if tmp > self.LSMALL:
                             trans_accum['num'][1] = \
-                                self.logadd(trans_accum['num'][1],
-                                            tmp)
+                                self.logadd(trans_accum['num'][1], tmp)
                     else:
                         # 마지막 상태
                         # 자기 루프
                         tmp = self.alpha[l][s][t] \
-                            + self.trans[p][s][0] \
-                            + self.state_prob[l][s][t+1] \
-                            + self.beta[l][s][t+1] \
-                            - self.loglikelihood
+                              + self.trans[p][s][0] \
+                              + self.state_prob[l][s][t + 1] \
+                              + self.beta[l][s][t + 1] \
+                              - self.loglikelihood
                         if tmp > self.LSMALL:
                             trans_accum['num'][0] = \
-                                self.logadd(trans_accum['num'][0],
-                                            tmp)
-
+                                self.logadd(trans_accum['num'][0], tmp)
 
     """CPU 병렬 처리를 위한 추가 사항 merge_pdf_accumulators
     다른 워커에서 계산한 pdf_accumulators를 현재 모델에 합산."""
@@ -698,7 +699,6 @@ class MonoPhoneHMM():
                 for i in range(2):
                     tgt['num'][i] = self.logadd(tgt['num'][i], src['num'][i])
 
-
     def update_parameters(self):
         ''' 파라미터 갱신
         '''
@@ -709,38 +709,65 @@ class MonoPhoneHMM():
                 self.trans[p][s] = \
                     trans_accum['num'] - trans_accum['den']
                 # 확률 총합이 1이 되도록 정규화
-                tmp = self.logadd(self.trans[p][s][0], 
+                tmp = self.logadd(self.trans[p][s][0],
                                   self.trans[p][s][1])
                 self.trans[p][s] -= tmp
+
                 for m in range(self.num_mixture):
                     pdf = self.pdf[p][s][m]
                     pdf_accum = self.pdf_accumulators[p][s][m]
-                    # 평균 벡터 갱신
-                    den = np.exp(pdf_accum['mu']['den'])
-                    if den > 0:
-                        pdf['mu'] = pdf_accum['mu']['num'] / den
-                    # 대각 공분산 갱신
-                    den = np.exp(pdf_accum['var']['den'])
-                    if den > 0:
-                        pdf['var'] = pdf_accum['var']['num'] / den
-                    # 분산의 최저값 설정
-                    pdf['var'][pdf['var'] < self.MINVAR] = \
-                        self.MINVAR
-                    # gConst 항 갱신
-                    gconst = self.calc_gconst(pdf['var'])
-                    pdf['gConst'] = gconst
 
-                    # GMM 가중치 갱신
-                    tmp = pdf_accum['weight']['num'] - \
-                        pdf_accum['weight']['den']
-                    pdf['weight'] = np.exp(tmp)
-                # GMM 가중치 총합이 1이 되도록 정규화    
+                    # === 평균 갱신 ===
+                    log_den_mu = pdf_accum['mu']['den']
+                    if np.isfinite(log_den_mu):
+                        log_den_mu = np.clip(log_den_mu, -50.0, 50.0)
+                        den_mu = np.exp(log_den_mu)
+                    else:
+                        den_mu = 0.0
+
+                    if den_mu > 0:
+                        pdf['mu'] = pdf_accum['mu']['num'] / den_mu
+                    # den_mu == 0 이면 업데이트 건너뛰고 이전 값 유지
+
+                    # === 분산 갱신 ===
+                    log_den_var = pdf_accum['var']['den']
+                    if np.isfinite(log_den_var):
+                        log_den_var = np.clip(log_den_var, -50.0, 50.0)
+                        den_var = np.exp(log_den_var)
+                    else:
+                        den_var = 0.0
+
+                    if den_var > 0:
+                        pdf['var'] = pdf_accum['var']['num'] / den_var
+
+                    # 분산의 최저값 설정
+                    pdf['var'][pdf['var'] < self.MINVAR] = self.MINVAR
+                    # gConst 항 갱신
+                    pdf['gConst'] = self.calc_gconst(pdf['var'])
+
+                    # === GMM 가중치 갱신 ===
+                    log_w_num = pdf_accum['weight']['num']
+                    log_w_den = pdf_accum['weight']['den']
+                    if np.isfinite(log_w_num) and np.isfinite(log_w_den):
+                        tmp_w = log_w_num - log_w_den
+                        tmp_w = np.clip(tmp_w, -50.0, 50.0)
+                        pdf['weight'] = np.exp(tmp_w)
+                    else:
+                        # 비정상적인 경우, 일단 1.0로 두고 아래에서 정규화
+                        pdf['weight'] = 1.0
+
+                # GMM 가중치 총합이 1이 되도록 정규화
                 wsum = 0.0
                 for m in range(self.num_mixture):
                     wsum += self.pdf[p][s][m]['weight']
-                for m in range(self.num_mixture):
-                    self.pdf[p][s][m]['weight'] /= wsum
 
+                if wsum == 0.0 or not np.isfinite(wsum):
+                    # 전부 0/NaN이면 균등 분배
+                    for m in range(self.num_mixture):
+                        self.pdf[p][s][m]['weight'] = 1.0 / self.num_mixture
+                else:
+                    for m in range(self.num_mixture):
+                        self.pdf[p][s][m]['weight'] /= wsum
 
     def viterbi_decoding(self, label):
         ''' 비터비 알고리즘에 의한 디코딩

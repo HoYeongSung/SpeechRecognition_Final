@@ -20,8 +20,10 @@ import time
 # 
 if __name__ == "__main__":
 
+    '''HMM 상태수 최적화'''
+    NUM_STATES = 3
     # 학습용 HMM 파일
-    base_hmm = './exp/model_3state_1mix/10.hmm'
+    base_hmm = f'./exp/model_{NUM_STATES}state_1mix/10.hmm'
 
     # 훈련 데이터 특징량 리스트 파일
     feat_scp = \

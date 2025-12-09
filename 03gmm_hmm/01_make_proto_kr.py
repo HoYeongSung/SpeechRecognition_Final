@@ -21,8 +21,9 @@ if __name__ == "__main__":
     phone_list_file = \
         './exp/data/train/phone_list'
 
+    '''HMM 상태 수 최적화 시 건들 곳'''
     # 각 음소 HMM의 상태 수
-    num_states = 3
+    NUM_STATES = 3
 
     # 입력 특징의 차원 수
     # 여기서는 MFCC를 사용하기 때문에,
@@ -32,9 +33,9 @@ if __name__ == "__main__":
     # 자기 루프 확률의 초기값
     prob_loop = 0.7
 
+    '''HMM 상태 수 최적화-전역변수로 변환'''
     # 출력 폴더
-    out_dir = \
-      './exp/model_%dstate_1mix' % (num_states)
+    out_dir = f'./exp/model_{NUM_STATES}state_1mix'
 
     # 
     # 처리 시작
@@ -55,7 +56,7 @@ if __name__ == "__main__":
     hmm = MonoPhoneHMM()
 
     # HMM 프로토타입을 생성
-    hmm.make_proto(phone_list, num_states,
+    hmm.make_proto(phone_list, NUM_STATES,
                    prob_loop, num_dims)
 
     # HMM 프로토타입을 JSON 형식으로 저장

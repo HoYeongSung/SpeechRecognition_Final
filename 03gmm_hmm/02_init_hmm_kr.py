@@ -19,8 +19,10 @@ import os
 # 
 if __name__ == "__main__":
 
+    '''HMM 상태 수 최적화'''
+    NUM_STATES = 3
     # HMM 프로토타입
-    hmmproto = './exp/model_3state_1mix/hmmproto'
+    hmmproto = f'./exp/model_{NUM_STATES}state_1mix/hmmproto'
 
     # 학습 데이터 특징의 평균/표준 편차 파일
     mean_std_file = \

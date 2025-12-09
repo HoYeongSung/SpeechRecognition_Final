@@ -18,10 +18,11 @@ import os
 # 메인 함수
 # 
 if __name__ == "__main__":
-
+    '''HMM 상태수 최적화'''
+    NUM_STATES = 3
     # HMM 파일
-    # hmm_file = './exp/model_3state_1mix/10.hmm'
-    hmm_file = './exp/gmmhmm/model_3state_2mix/10.hmm'
+    hmm_file = f'./exp/model_{NUM_STATES}state_1mix/10.hmm'
+    # hmm_file = f'./exp/gmmhmm/model_{NUM_STATES}state_2mix/10.hmm'
 
     # 평가 데이터의 특징량 리스트 파일
     feat_scp = '../01compute_features/mfcc/test/feats.scp'
